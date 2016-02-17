@@ -17,3 +17,7 @@ test-vm-syntax-error-stderr                     : PASS,FLAKY
 
 [$system==freebsd]
 
+[$jsEngine==chakracore]
+test-stdin-script-child             : FLAKY
+test-util-debug                     : FLAKY
+test-vm-timeout-rethrow             : FLAKY

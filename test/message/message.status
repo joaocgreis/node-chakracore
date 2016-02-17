@@ -16,3 +16,8 @@ prefix message
 
 [$system==freebsd]
 
+[$jsEngine==chakracore]
+eval_messages                       : FLAKY
+stdin_messages                      : FLAKY
+vm_display_runtime_error            : FLAKY
+vm_dont_display_runtime_error       : FLAKY
