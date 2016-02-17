@@ -21,3 +21,57 @@ test-child-process-exit-code         : PASS,FLAKY
 [$system==solaris] # Also applies to SmartOS
 
 [$system==freebsd]
+
+[$jsEngine==chakracore]
+test-buffer-includes                 : FLAKY
+test-buffer-indexof                  : FLAKY
+test-crypto-dh                       : FLAKY
+test-debug-brk                       : FLAKY
+test-debug-no-context                : FLAKY
+test-debug-port-cluster              : FLAKY
+test-debug-port-from-cmdline         : FLAKY
+test-debug-signal-cluster            : FLAKY
+test-domain-abort-on-uncaught        : FLAKY
+test-domain-no-error-handler-abort-on-uncaught : FLAKY
+test-domain-throw-error-then-throw-from-uncaught-exception-handler : FLAKY
+test-domain-with-abort-on-uncaught-exception : FLAKY
+test-error-reporting                 : FLAKY
+test-fs-read-buffer-tostring-fail    : FLAKY
+test-fs-readfile-error               : FLAKY
+test-fs-readfile-tostring-fail       : FLAKY
+test-fs-stat                         : FLAKY
+test-fs-symlink                      : FLAKY
+test-intl                            : FLAKY
+test-microtask-queue-integration     : FLAKY
+test-microtask-queue-integration-domain : FLAKY
+test-net-socket-local-address        : FLAKY
+test-preload                         : FLAKY
+test-process-env                     : FLAKY
+test-promises-unhandled-rejections   : FLAKY
+test-readline-interface              : FLAKY
+test-regress-GH-5927                 : FLAKY
+test-repl                            : FLAKY
+test-repl-mode                       : FLAKY
+test-repl-require                    : FLAKY
+test-repl-syntax-error-stack         : FLAKY
+test-repl-tab-complete               : FLAKY
+test-stdin-pause-resume-sync         : FLAKY
+test-stdin-resume-pause              : FLAKY
+test-stringbytes-external-at-max     : FLAKY
+test-stringbytes-external-exceed-max : FLAKY
+test-stringbytes-external-exceed-max-by-1-ascii : FLAKY
+test-stringbytes-external-exceed-max-by-1-base64 : FLAKY
+test-stringbytes-external-exceed-max-by-1-binary : FLAKY
+test-stringbytes-external-exceed-max-by-1-hex : FLAKY
+test-stringbytes-external-exceed-max-by-1-utf8 : FLAKY
+test-tick-processor                  : FLAKY
+test-util                            : FLAKY
+test-util-decorate-error-stack       : FLAKY
+test-util-inspect                    : FLAKY
+test-util-internal                   : FLAKY
+test-vm-context                      : FLAKY
+test-vm-create-and-run-in-context    : FLAKY
+test-vm-debug-context                : FLAKY
+test-vm-global-identity              : FLAKY
+test-vm-harmony-proxies              : FLAKY
+test-vm-preserves-property           : FLAKY
