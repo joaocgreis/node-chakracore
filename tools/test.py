@@ -1510,10 +1510,16 @@ def Main():
         if not exists(vm):
           print "Can't find shell executable: '%s'" % vm
           continue
+        jsEngineContext = Execute([vm, "-p", "process.jsEngine"], context)
+        jsEngine = jsEngineContext.stdout.rstrip()
+        if jsEngineContext.exit_code is not 0 or jsEngine == "undefined":
+          print "Can't determine the jsEngine of: '%s'" % vm
+          continue
         env = {
           'mode': mode,
           'system': utils.GuessOS(),
           'arch': arch,
+          'jsengine': jsEngine,
         }
         test_list = root.ListTests([], path, context, arch, mode)
         unclassified_tests += test_list
