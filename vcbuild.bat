@@ -196,7 +196,7 @@ echo.
 echo.
 
 @rem Build the sln with msbuild.
-msbuild node.sln /m /t:%target% /p:Configuration=%config% /clp:NoSummary;NoItemAndPropertyList;Verbosity=minimal /nologo
+msbuild node.sln /m /t:%target% /p:Configuration=%config% /clp:NoSummary;NoItemAndPropertyList;Verbosity=diag /nologo
 if errorlevel 1 goto exit
 if "%target%" == "Clean" goto exit
 
