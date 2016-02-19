@@ -113,6 +113,12 @@ call :getnodeversion || exit /b 1
 
 @rem Set environment for msbuild
 
+echo.
+echo.
+set
+echo.
+echo.
+
 @rem Look for Visual Studio 2015
 echo Looking for Visual Studio 2015
 if not defined VS140COMNTOOLS goto vc-set-2013
@@ -182,6 +188,12 @@ echo Project files generated.
 :msbuild
 @rem Skip build if requested.
 if defined nobuild goto sign
+
+echo.
+echo.
+set
+echo.
+echo.
 
 @rem Build the sln with msbuild.
 msbuild node.sln /m /t:%target% /p:Configuration=%config% /clp:NoSummary;NoItemAndPropertyList;Verbosity=minimal /nologo
