@@ -89,12 +89,11 @@ def npm_files(action):
     paths = [os.path.join(dirname, basename) for basename in basenames]
     action(paths, target_path + dirname[9:] + '/')
 
-  # create/remove symlink
-  link_path = abspath(install_path, 'bin/npm')
+  # create/remove npm invoke script
   if action == uninstall:
     action([link_path], 'bin/npm')
   elif action == install:
-    try_symlink('../lib/node_modules/npm/bin/npm-cli.js', link_path)
+    action(['deps/chakrashim/npm'], 'bin/npm')
   else:
     assert(0) # unhandled action type
 

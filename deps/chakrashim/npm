@@ -1,0 +1,4 @@
+#!/bin/bash
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )
+echo "nodedir=$DIR/lib/chakracore_sdk" > $DIR/lib/node_modules/npm/npmrc
+$DIR/lib/node_modules/npm/npm/bin/npm-cli.js
