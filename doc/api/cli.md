@@ -133,7 +133,7 @@ Print stack traces for process warnings (including deprecations).
 
 ### `--redirect-warnings=file`
 <!-- YAML
-added: REPLACEME
+added: 
 -->
 
 Write process warnings to the given file instead of printing to stderr. The
@@ -435,7 +435,7 @@ OpenSSL, it may cause them to trust the same CAs as node.
 
 ### `NODE_REDIRECT_WARNINGS=file`
 <!-- YAML
-added: REPLACEME
+added: 
 -->
 
 When set, process warnings will be emitted to the given file instead of

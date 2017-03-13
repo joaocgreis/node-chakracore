@@ -249,7 +249,7 @@ changes:
     pr-url: https://github.com/nodejs/node/pull/5929
     description: On success, `callback` will now be called with an `error`
                  argument of `null` rather than `0`.
-  - version: REPLACEME
+  - version: 
     pr-url: https://github.com/nodejs/node/pull/10473
     description: The `address` parameter is always optional now.
   - version: v5.7.0

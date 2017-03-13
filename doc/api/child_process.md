@@ -252,7 +252,7 @@ encoding, `Buffer` objects will be passed to the callback instead.
 <!-- YAML
 added: v0.5.0
 changes:
-  - version: REPLACEME
+  - version: 
     pr-url: https://github.com/nodejs/node/pull/10866
     description: The `stdio` option can now be a string.
   - version: v6.4.0
@@ -593,7 +593,7 @@ configuration at startup.
 <!-- YAML
 added: v0.11.12
 changes:
-  - version: REPLACEME
+  - version: 
     pr-url: https://github.com/nodejs/node/pull/10653
     description: The `input` option can now be a `Uint8Array`.
   - version: v6.2.1, v4.5.0
@@ -639,7 +639,7 @@ throw.  The [`Error`][] object will contain the entire result from
 <!-- YAML
 added: v0.11.12
 changes:
-  - version: REPLACEME
+  - version: 
     pr-url: https://github.com/nodejs/node/pull/10653
     description: The `input` option can now be a `Uint8Array`.
 -->
@@ -690,7 +690,7 @@ execution.**
 <!-- YAML
 added: v0.11.12
 changes:
-  - version: REPLACEME
+  - version: 
     pr-url: https://github.com/nodejs/node/pull/10653
     description: The `input` option can now be a `Uint8Array`.
   - version: v6.2.1, v4.5.0
