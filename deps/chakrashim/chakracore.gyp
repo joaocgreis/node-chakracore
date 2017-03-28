@@ -119,13 +119,8 @@
               ],
             }, {
               'action': [
-                'bash',
-                '<(chakra_dir)/build.sh',
-                '--without=Simdjs',
-                '--static',
-                '<@(chakra_build_flags)',
-                '<@(icu_args)',
-                '--libs-only'
+                'make',
+                'CHAKRACORE_BUILD_ARGS=--without=Simdjs --static <@(chakra_build_flags) <@(icu_args) --libs-only'
               ],
             }],
           ],

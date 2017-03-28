@@ -496,6 +496,8 @@ cmake $CMAKE_GEN $CC_PREFIX $ICU_PATH $LTO $STATIC_LIBRARY $ARCH $TARGET_OS \
     $WITHOUT_FEATURES $WB_FLAG $WB_ARGS $CMAKE_EXPORT_COMPILE_COMMANDS $LIBS_ONLY_BUILD\
     ../..
 
+exit 0
+
 _RET=$?
 if [[ $? == 0 ]]; then
     if [[ $MAKE != 0 ]]; then
