@@ -379,7 +379,7 @@ within the action function for commands registered using the
 
 ### replServer.clearBufferedCommand()
 <!-- YAML
-added: REPLACEME
+added: 
 -->
 
 The `replServer.clearBufferedComand()` method clears any command that has been
@@ -390,7 +390,7 @@ called from within the action function for commands registered using the
 ### replServer.parseREPLKeyword(keyword, [rest])
 <!-- YAML
 added: v0.8.9
-deprecated: REPLACEME
+deprecated: 
 -->
 
 * `keyword` {string} the potential keyword to parse and execute

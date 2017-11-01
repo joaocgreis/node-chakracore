@@ -210,7 +210,7 @@ of the event loop.
 
 ### `--force-async-hooks-checks`
 <!-- YAML
-added: REPLACEME
+added: 
 -->
 
 Enables runtime checks for `async_hooks`. These can also be enabled dynamically
