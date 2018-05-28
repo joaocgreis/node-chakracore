@@ -1303,7 +1303,7 @@ fs.copyFileSync('source.txt', 'destination.txt', COPYFILE_EXCL);
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v0
     pr-url: https://github.com/nodejs/node/pull/19898
     description: Impose new restrictions on `start` and `end`, throwing
                  more appropriate errors in cases when we cannot reasonably

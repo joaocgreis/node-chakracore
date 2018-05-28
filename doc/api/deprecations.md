@@ -825,7 +825,7 @@ same as the legacy assert but it will always use strict equality checks.
 Type: End-of-Life
 
 Node.js used to support all GCM authentication tag lengths which are accepted by
-OpenSSL when calling [`decipher.setAuthTag()`][]. Beginning with node REPLACEME,
+OpenSSL when calling [`decipher.setAuthTag()`][]. Beginning with node v0,
 only authentication tag lengths of 128, 120, 112, 104, 96, 64, and 32 bits are
 allowed. Authentication tags whose length is not included in this list are
 considered invalid in compliance with [NIST SP 800-38D][].
